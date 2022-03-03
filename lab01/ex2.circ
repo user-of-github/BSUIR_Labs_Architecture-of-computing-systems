@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.4.3-61c.7ae7f66" version="1.0">
+<project source="3.3.6" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -122,26 +122,51 @@
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(100,210)" name="Pin">
+    <comp lib="0" loc="(100,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="clk"/>
-      <a name="locked" val="true"/>
     </comp>
-    <comp lib="0" loc="(480,180)" name="Pin">
+    <comp lib="0" loc="(470,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ADD_OUT"/>
-      <a name="locked" val="true"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
-    <comp lib="0" loc="(480,240)" name="Pin">
+    <comp lib="0" loc="(470,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="REG_OUT"/>
-      <a name="locked" val="true"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(80,100)" name="Constant">
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="2" loc="(140,110)" name="Adder"/>
+    <comp lib="3" loc="(180,180)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(100,250)" to="(180,250)"/>
+    <wire from="(140,110)" to="(170,110)"/>
+    <wire from="(170,110)" to="(170,210)"/>
+    <wire from="(170,110)" to="(470,110)"/>
+    <wire from="(170,210)" to="(180,210)"/>
+    <wire from="(20,120)" to="(100,120)"/>
+    <wire from="(20,120)" to="(20,300)"/>
+    <wire from="(20,300)" to="(280,300)"/>
+    <wire from="(240,210)" to="(280,210)"/>
+    <wire from="(280,210)" to="(280,300)"/>
+    <wire from="(280,210)" to="(470,210)"/>
+    <wire from="(80,100)" to="(100,100)"/>
   </circuit>
 </project>
+<!--Thu Mar  3 18:59:20 2022-->
+<!--/home/user/Documents/HomeWork/Architecture Of Computing Systems/BSUIR_Labs_Architecture-of-computing-systems/lab01-->
+<!--user-->
+<!--Thu Mar  3 19:00:06 2022-->
+<!--/home/user/Documents/HomeWork/Architecture Of Computing Systems/BSUIR_Labs_Architecture-of-computing-systems/lab01-->
+<!--user-->
+<!--Thu Mar  3 22:04:08 2022-->
+<!--/home/user/Documents/HomeWork/Architecture Of Computing Systems/BSUIR_Labs_Architecture-of-computing-systems/lab01-->
+<!--user-->
