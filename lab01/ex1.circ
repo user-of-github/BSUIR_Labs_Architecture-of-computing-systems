@@ -236,7 +236,7 @@
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(430,120)" name="Pin">
+    <comp lib="0" loc="(380,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="RESULT"/>
@@ -270,7 +270,7 @@
     <wire from="(260,140)" to="(260,150)"/>
     <wire from="(260,140)" to="(290,140)"/>
     <wire from="(260,90)" to="(260,100)"/>
-    <wire from="(340,120)" to="(430,120)"/>
+    <wire from="(340,120)" to="(380,120)"/>
     <wire from="(90,130)" to="(180,130)"/>
     <wire from="(90,210)" to="(130,210)"/>
     <wire from="(90,70)" to="(180,70)"/>
@@ -308,7 +308,7 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="SEL1"/>
     </comp>
-    <comp lib="0" loc="(900,250)" name="Pin">
+    <comp lib="0" loc="(760,250)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="RESULT"/>
@@ -339,9 +339,9 @@
     <wire from="(470,270)" to="(520,270)"/>
     <wire from="(500,290)" to="(500,460)"/>
     <wire from="(500,290)" to="(520,290)"/>
-    <wire from="(740,250)" to="(900,250)"/>
+    <wire from="(740,250)" to="(760,250)"/>
   </circuit>
 </project>
-<!--Thu Mar  3 22:04:07 2022-->
+<!--Sat Mar  5 21:18:12 2022-->
 <!--/home/user/Documents/HomeWork/Architecture Of Computing Systems/BSUIR_Labs_Architecture-of-computing-systems/lab01-->
 <!--user-->
