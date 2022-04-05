@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/Other/HomeWork/Architecture of Computing Systems/lab02/fulladder.sv
+source_file = 1, D:/Other/HomeWork/Architecture of Computing Systems/lab02/db/fulladder.cbx.xml
+design_name = fulladder
+instance = comp, \sum~output , sum~output, fulladder, 1
+instance = comp, \cout~output , cout~output, fulladder, 1
+instance = comp, \a~input , a~input, fulladder, 1
+instance = comp, \b~input , b~input, fulladder, 1
+instance = comp, \cin~input , cin~input, fulladder, 1
+instance = comp, \o2~0 , o2~0, fulladder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, fulladder, 1
