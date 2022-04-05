@@ -32,15 +32,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "R",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
 					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "R",
 					"strict" : false
 				}
 			]

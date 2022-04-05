@@ -1,5 +1,5 @@
 Fitter report for CarsLights
-Tue Apr 05 19:02:46 2022
+Tue Apr 05 20:10:25 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Apr 05 19:02:46 2022       ;
+; Fitter Status                   ; Successful - Tue Apr 05 20:10:25 2022       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; CarsLights                                  ;
 ; Top-level Entity Name           ; CarsLights                                  ;
@@ -169,7 +169,7 @@ refer to the applicable agreement for further details.
 +------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+--------------------+------------------+-----------------------+
 ; clk~inputCLKENA0 ; Created    ; Placement                                         ; Fitter Periphery Placement ;           ;                ;                    ;                  ;                       ;
 ; state.S2         ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; state.S2~DUPLICATE ;                  ;                       ;
-; state.S5         ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; state.S5~DUPLICATE ;                  ;                       ;
+; state.S3         ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; state.S3~DUPLICATE ;                  ;                       ;
 +------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+--------------------+------------------+-----------------------+
 
 
@@ -283,8 +283,8 @@ The pin-out file can be found in D:/Other/HomeWork/Architecture of Computing Sys
 ; Peak interconnect usage (total/H/V)                         ; 0.1% / 0.1% / 0.2% ;       ;
 ; Maximum fan-out                                             ; 9                  ;       ;
 ; Highest non-global fan-out                                  ; 9                  ;       ;
-; Total fan-out                                               ; 65                 ;       ;
-; Average fan-out                                             ; 1.71               ;       ;
+; Total fan-out                                               ; 63                 ;       ;
+; Average fan-out                                             ; 1.66               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -347,8 +347,8 @@ The pin-out file can be found in D:/Other/HomeWork/Architecture of Computing Sys
 ;     -- Registered Output Connections                        ; 0                   ; 0                              ;
 ;                                                             ;                     ;                                ;
 ; Internal Connections                                        ;                     ;                                ;
-;     -- Total Connections                                    ; 65                  ; 0                              ;
-;     -- Registered Connections                               ; 23                  ; 0                              ;
+;     -- Total Connections                                    ; 63                  ; 0                              ;
+;     -- Registered Connections                               ; 22                  ; 0                              ;
 ;                                                             ;                     ;                                ;
 ; External Connections                                        ;                     ;                                ;
 ;     -- Top                                                  ; 0                   ; 0                              ;
@@ -381,7 +381,7 @@ The pin-out file can be found in D:/Other/HomeWork/Architecture of Computing Sys
 ; Name  ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; L     ; U13   ; 4A       ; 33           ; 0            ; 40           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; R     ; V13   ; 4A       ; 33           ; 0            ; 57           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; R     ; V13   ; 4A       ; 33           ; 0            ; 57           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; clk   ; T13   ; 4A       ; 34           ; 0            ; 0            ; 9                     ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; reset ; T12   ; 4A       ; 34           ; 0            ; 17           ; 9                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +-------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
@@ -922,9 +922,9 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; RB       ; Incomplete set of assignments ;
 ; RC       ; Incomplete set of assignments ;
 ; L        ; Incomplete set of assignments ;
-; R        ; Incomplete set of assignments ;
 ; clk      ; Incomplete set of assignments ;
 ; reset    ; Incomplete set of assignments ;
+; R        ; Incomplete set of assignments ;
 +----------+-------------------------------+
 
 
@@ -933,7 +933,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
-; |CarsLights                ; 4.0 (4.0)            ; 5.0 (5.0)                        ; 1.0 (1.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 9 (9)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 10   ; 0            ; |CarsLights         ; CarsLights  ; work         ;
+; |CarsLights                ; 4.0 (4.0)            ; 5.5 (5.5)                        ; 1.5 (1.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 9 (9)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 10   ; 0            ; |CarsLights         ; CarsLights  ; work         ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -950,9 +950,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; RB    ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; RC    ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; L     ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; R     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; clk   ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; reset ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; R     ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 +-------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
@@ -965,10 +965,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - nextstate.S1~0     ; 0                 ; 0       ;
 ;      - nextstate.S4~0     ; 0                 ; 0       ;
 ;      - Selector0~0        ; 0                 ; 0       ;
-; R                         ;                   ;         ;
-;      - nextstate.S1~0     ; 1                 ; 0       ;
-;      - nextstate.S4~0     ; 1                 ; 0       ;
-;      - Selector0~0        ; 1                 ; 0       ;
 ; clk                       ;                   ;         ;
 ;      - clk~inputCLKENA0   ; 0                 ; 0       ;
 ; reset                     ;                   ;         ;
@@ -980,7 +976,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - state.S5           ; 1                 ; 0       ;
 ;      - state.S6           ; 1                 ; 0       ;
 ;      - state.S2~DUPLICATE ; 1                 ; 0       ;
-;      - state.S5~DUPLICATE ; 1                 ; 0       ;
+;      - state.S3~DUPLICATE ; 1                 ; 0       ;
+; R                         ;                   ;         ;
+;      - nextstate.S4~0     ; 1                 ; 0       ;
+;      - Selector0~0        ; 1                 ; 0       ;
 +---------------------------+-------------------+---------+
 
 
@@ -1008,21 +1007,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+------------------------+
 ; Routing Resource Type        ; Usage                  ;
 +------------------------------+------------------------+
-; Block interconnects          ; 17 / 140,056 ( < 1 % ) ;
+; Block interconnects          ; 15 / 140,056 ( < 1 % ) ;
 ; C12 interconnects            ; 7 / 6,048 ( < 1 % )    ;
-; C2 interconnects             ; 4 / 54,648 ( < 1 % )   ;
-; C4 interconnects             ; 0 / 25,920 ( 0 % )     ;
+; C2 interconnects             ; 3 / 54,648 ( < 1 % )   ;
+; C4 interconnects             ; 1 / 25,920 ( < 1 % )   ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )         ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )         ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )         ;
 ; Direct links                 ; 4 / 140,056 ( < 1 % )  ;
 ; Global clocks                ; 1 / 16 ( 6 % )         ;
-; Local interconnects          ; 6 / 36,960 ( < 1 % )   ;
+; Local interconnects          ; 5 / 36,960 ( < 1 % )   ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )         ;
 ; R14 interconnects            ; 7 / 5,984 ( < 1 % )    ;
 ; R14/C12 interconnect drivers ; 10 / 9,504 ( < 1 % )   ;
-; R3 interconnects             ; 3 / 60,192 ( < 1 % )   ;
-; R6 interconnects             ; 11 / 127,072 ( < 1 % ) ;
+; R3 interconnects             ; 5 / 60,192 ( < 1 % )   ;
+; R6 interconnects             ; 7 / 127,072 ( < 1 % )  ;
 ; Spine clocks                 ; 1 / 120 ( < 1 % )      ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )      ;
 +------------------------------+------------------------+
@@ -1094,9 +1093,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; RB                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; RC                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; L                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; R                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; clk                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; reset              ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; R                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
 
@@ -1148,7 +1147,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+----------------------+-------------------+
 ; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; clk             ; clk                  ; 1.2               ;
+; clk             ; clk                  ; 1.1               ;
 +-----------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
@@ -1159,12 +1158,11 @@ This will disable optimization of problematic paths and expose them for further 
 +-----------------+----------------------+-------------------+
 ; Source Register ; Destination Register ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; state.S3        ; state.S0             ; 0.290             ;
-; state.S0        ; state.S4             ; 0.284             ;
-; state.S6        ; state.S0             ; 0.279             ;
-; state.S4        ; state.S5             ; 0.037             ;
+; state.S3        ; state.S0             ; 0.284             ;
+; state.S6        ; state.S0             ; 0.274             ;
+; state.S0        ; state.S1             ; 0.274             ;
 +-----------------+----------------------+-------------------+
-Note: This table only shows the top 4 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 3 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1207,7 +1205,7 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.25 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1215,10 +1213,10 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/output_files/CarsLights.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 7552 megabytes
-    Info: Processing ended: Tue Apr 05 19:02:46 2022
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:01:19
+    Info: Peak virtual memory: 7569 megabytes
+    Info: Processing ended: Tue Apr 05 20:10:25 2022
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:01:24
 
 
 +----------------------------+
