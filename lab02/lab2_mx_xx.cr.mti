@@ -1,0 +1,15 @@
+{D:/Other/HomeWork/Architecture of Computing Systems/lab02/fulladder.sv} {1 {vlog -work work -sv -stats=none {D:/Other/HomeWork/Architecture of Computing Systems/lab02/fulladder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} {D:/Other/HomeWork/Architecture of Computing Systems/lab02/testbench.sv} {1 {vlog -work work -sv -stats=none {D:/Other/HomeWork/Architecture of Computing Systems/lab02/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}
