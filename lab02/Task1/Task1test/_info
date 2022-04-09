@@ -10,7 +10,7 @@ cModel Technology
 dC:/intelFPGA_lite/18.0
 vCarsLights
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1649180633
+Z1 !s110 1649230809
 !i10b 1
 !s100 UPfbOHSk2hg^U4Y@VeCWC3
 IAmU[<8VgDhX^?N81[3lFk3
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1649180633.000000
+Z5 !s108 1649230809.000000
 !s107 D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv|
 !s90 -reportprogress|300|-work|Task1test|-sv|-stats=none|D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv|
 !i113 1
@@ -37,13 +37,13 @@ vtestbench
 R0
 R1
 !i10b 1
-!s100 Jn_H46WD:CJY4MgJAgm3=2
-Ik;nKjIMnL38`WUzmU`Z;o2
+!s100 M0f>m5^`<d4g7D6B2I`K`2
+I[h_YS;cU_>AAo4KE8LPnF2
 R2
 !s105 testbench_sv_unit
 S1
 R3
-w1649180621
+w1649230647
 8D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench.sv
 FD:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench.sv
 L0 1

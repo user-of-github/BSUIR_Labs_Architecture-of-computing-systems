@@ -28,15 +28,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "L",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
 					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "L",
 					"strict" : false
 				},
 				{

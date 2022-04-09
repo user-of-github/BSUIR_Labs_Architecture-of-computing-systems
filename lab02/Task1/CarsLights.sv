@@ -30,12 +30,12 @@ output logic RA, output logic RB, output logic RC
 
 
 	// выходная логика
-	assign LA = (state == S1);
-	assign LB = (state == S2 | state == S1); 
-	assign LC = (state == S3 | state == S2 | state == S3); 
+	assign LA = (state == S3 | state == S2 | state == S1);
+	assign LB = (state == S2 | state == S3); 
+	assign LC = (state == S3); 
 
-	assign RA = (state == S4);
-	assign RB = (state == S5 | state == S4); 
-	assign RC = (state == S6 | state == S4 | state == S3); 
+	assign RA = (state == S4 | state == S5 | state == S6);
+	assign RB = (state == S5 | state == S6); 
+	assign RC = (state == S6); 
 
 endmodule	
