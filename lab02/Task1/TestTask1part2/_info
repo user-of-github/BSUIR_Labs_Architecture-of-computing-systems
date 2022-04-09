@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1
+vCarsLights
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1649231995
+!i10b 1
+!s100 2OceS:_[Lih^?9NS3k1]^0
+IgTa3H12HPGUXV>nkeQ_Me3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 CarsLights_sv_unit
+S1
+R0
+w1649231989
+8D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv
+FD:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1649231995.000000
+!s107 D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv|
+!s90 -reportprogress|300|-work|TestTask1part2|-sv|-stats=none|D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv|
+!i113 1
+Z4 o-work TestTask1part2 -sv
+Z5 tCvgOpt 0
+n@cars@lights
+vtestbench
+R1
+!s110 1649231996
+!i10b 1
+!s100 44kX;H2FNZW@oC5=mVL[51
+IR?<XI3NZT_]Lbh;9C;2211
+R2
+!s105 testbench2_sv_unit
+S1
+R0
+w1649230667
+8D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench2.sv
+FD:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench2.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1649231996.000000
+!s107 D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench2.sv|
+!s90 -reportprogress|300|-work|TestTask1part2|-sv|-stats=none|D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench2.sv|
+!i113 1
+R4
+R5

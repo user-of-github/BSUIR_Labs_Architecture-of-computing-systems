@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CarsLights
-Tue Apr 05 19:02:28 2022
+Wed Apr 06 19:14:18 2022
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -19,6 +19,7 @@ Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
  11. Post-Synthesis Netlist Statistics for Top Partition
  12. Elapsed Time Per Partition
  13. Analysis & Synthesis Messages
+ 14. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -44,7 +45,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 05 19:02:28 2022       ;
+; Analysis & Synthesis Status     ; Successful - Wed Apr 06 19:14:18 2022       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; CarsLights                                  ;
 ; Top-level Entity Name           ; CarsLights                                  ;
@@ -199,8 +200,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 7         ;
-; Total fan-out                               ; 58        ;
-; Average fan-out                             ; 1.71      ;
+; Total fan-out                               ; 57        ;
+; Average fan-out                             ; 1.68      ;
 +---------------------------------------------+-----------+
 
 
@@ -238,11 +239,7 @@ Encoding Type:  One-Hot
 ; state~4                               ; Lost fanout        ;
 ; state~5                               ; Lost fanout        ;
 ; state~6                               ; Lost fanout        ;
-; state~7                               ; Lost fanout        ;
-; state~8                               ; Lost fanout        ;
-; state~9                               ; Lost fanout        ;
-; state~10                              ; Lost fanout        ;
-; Total Number of Removed Registers = 7 ;                    ;
+; Total Number of Removed Registers = 3 ;                    ;
 +---------------------------------------+--------------------+
 
 
@@ -268,15 +265,16 @@ Encoding Type:  One-Hot
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 7                           ;
 ;     CLR               ; 7                           ;
-; arriav_lcell_comb     ; 7                           ;
-;     normal            ; 7                           ;
-;         2 data inputs ; 2                           ;
-;         3 data inputs ; 4                           ;
+; arriav_lcell_comb     ; 8                           ;
+;     normal            ; 8                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 3                           ;
 ;         5 data inputs ; 1                           ;
 ; boundary_port         ; 10                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.89                        ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.11                        ;
 +-----------------------+-----------------------------+
 
 
@@ -295,25 +293,35 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Apr 05 19:02:13 2022
+    Info: Processing started: Wed Apr 06 19:14:01 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CarsLights -c CarsLights
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file carslights.sv
     Info (12023): Found entity 1: CarsLights File: D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv Line: 1
+Warning (12019): Can't analyze file -- file testbench.sv is missing
+Info (12021): Found 1 design units, including 1 entities, in source file testbench2.sv
+    Info (12023): Found entity 1: testbench File: D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench2.sv Line: 1
 Info (12127): Elaborating entity "CarsLights" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 7 registers lost all their fanouts during netlist optimizations.
+Info (17049): 3 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/output_files/CarsLights.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 21 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 4 input pins
     Info (21059): Implemented 6 output pins
     Info (21061): Implemented 11 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4903 megabytes
-    Info: Processing ended: Tue Apr 05 19:02:28 2022
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:37
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4915 megabytes
+    Info: Processing ended: Wed Apr 06 19:14:18 2022
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:38
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/output_files/CarsLights.map.smsg.
 
 

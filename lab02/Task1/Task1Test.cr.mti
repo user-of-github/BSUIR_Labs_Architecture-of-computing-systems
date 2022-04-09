@@ -1,0 +1,15 @@
+{D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv} {1 {vlog -work Task1test -sv -stats=none {D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/CarsLights.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CarsLights
+
+Top level modules:
+	CarsLights
+
+} {} {}} {D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench.sv} {1 {vlog -work Task1test -sv -stats=none {D:/Other/HomeWork/Architecture of Computing Systems/lab02/Task1/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}
