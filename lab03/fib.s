@@ -2,6 +2,7 @@
 n: .word 9
 
 .text
+
 main:
     add t0, x0, x0 # curr_fib = 0
     addi t1, x0, 1 # next_fib = 1
