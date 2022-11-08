@@ -1,0 +1,5 @@
+student-output
+.DS_Store
+
+cmake-build-debug/
+.idea/
