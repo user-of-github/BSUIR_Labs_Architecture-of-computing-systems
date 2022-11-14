@@ -1,5 +1,6 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "openmp-use-default-none"
+
 #include <iostream>
 #include <omp.h>
 
@@ -43,7 +44,7 @@ int main()
         pThreadData[counter]->last_row = kRowsPerThread * (counter + 1) - 1;
     }
 
-    #pragma omp parallel for
+#pragma omp parallel for
     for (std::size_t i = 0; i < kThreadNumber; ++i)
     {
         std::cout << "\nStarted thread # " << omp_get_thread_num() << '\n';
