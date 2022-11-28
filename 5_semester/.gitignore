@@ -3,3 +3,5 @@ student-output
 
 cmake-build-debug/
 .idea/
+
+CMakeFiles/
