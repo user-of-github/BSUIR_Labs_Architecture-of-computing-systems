@@ -1,6 +1,5 @@
-; Программа, выполняющая переключение задач.
+.386p
 
-        .386p
 RM_seg segment para public "CODE" use16
         assume cs:RM_seg,ds:PM_seg,ss:stack_seg
 start:
@@ -8,7 +7,7 @@ start:
         push       PM_seg
         pop        ds
 ; очистить экран
-        mov        ax,3
+        mov        ax, 3
         int        10h
 ; вычислить базы для всех дескрипторов сегментов данных
         xor        eax,eax
@@ -275,11 +274,11 @@ task_1_finish:
 
 ; задача 2
     
-task_2_message  db   " Tonight I wanna give it all to you,  In the darkness "
-                db   " There's so much I wanna do. And tonight I wanna lay it at your feet "
-                db   " 'Cause girl, I was made for you. And girl, you were made for me "
-                db   " I was made for lovin' you baby,You were made for lovin' me "
-                db   " And I can't get enough of you baby. Can you get enough of me "
+task_2_message  db   "MARVEL MOVIES 2023-...:"
+                db   "Avengers: Kung's Dinsasty"
+                db   "Avengers: Secret Wars"
+                db   "Guardians of the Galaxy. Vol 3"
+                db   "Ant-Man and Wasp: Quantumania"
 task_2_message_length = $ - task_2_message
 
 ; начало подпрограммы
@@ -314,11 +313,11 @@ task_2_finish:
 
 ; задача 3
     
-task_3_message  db   "  You better lose yourself in the music.  "
-                db   "  The moment, you own it, you better never let it go (Go)  "
-                db   "  You only get one shot, do not miss your chance to blow "
-                db   "  This opportunity comes once in a lifetime, yo "
-                db   "  You better lose yourself in the music... "
+task_3_message  db   "DC MOVIES 2022...:"
+                db   "- Black Adam"
+                db   "- Shazam 2: Fury of the gods"
+                db   "- Flash"
+                db   "- Joker 2: Folie a Deux"
                 
 
 task_3_message_length = $ - task_3_message
