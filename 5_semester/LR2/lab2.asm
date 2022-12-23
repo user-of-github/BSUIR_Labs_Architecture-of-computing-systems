@@ -1,7 +1,7 @@
 .386p
 
 RM_seg segment para public "CODE" use16
-        assume cs:RM_seg,ds:PM_seg,ss:stack_seg
+        assume cs:RM_seg, ds:PM_seg, ss:stack_seg
 start:
 ; подготовить сегментные регистры
         push       PM_seg
@@ -41,9 +41,9 @@ start:
         
         pop        eax
         add        eax,offset TSS_0
-        mov        word ptr GDT_TSS0+2,ax
+        mov        word ptr GDT_TSS0+2, ax
         shr        eax,16
-        mov        byte ptr GDT_TSS0+4,al
+        mov        byte ptr GDT_TSS0+4, al
         
         pop        eax
         add        eax,offset TSS_1
